@@ -13,7 +13,6 @@
   body { 
     background-image: url(img/hallo.jpg); 
     font-family: "Verdana", sans-serif;
-    margin: 50px;
   }
   h1, h2, h3 {
     font-family: "Gill Sans Medium", Arial, sans-serif;
@@ -33,14 +32,46 @@
   h3 {
     font-size: 30px;  
   }
+  .code {
+    font-family: "Courier New", monospace;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    color: red;
+  }
+  #title {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 50;
+    padding-top: 80px;
+    padding-bottom: 10px;
+  }
+  #email {
+    position: absolute;
+    top: 1250;
+    left: 750;
+    padding-top: 10px;
+    padding-bottom: 80px;
+  }
 </style>
 
 </head>
 <body>
-  
-    <h1>flotte-kiste.de</h1><br/>
-    <h3>das “bakfiets” aus amsterdam</h3><br/><br/><br/>
-    <h2>➠ 01577-1564-128</h2>
+
+<div id="title">
+  <h1>flotte-kiste.de</h1><br/><br/>
+  <h3>das “bakfiets” aus amsterdam</h3>
+</div>
+
+<div id="email">
+  <h2>info: <a class="code" href="mailto:tim@lossen.de?subject=bakfiets">tim@lossen.de</a></h2>
+</div>
+
+<br/><br/><br/><br/><br/>
 
 <script type="text/javascript">
   var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
